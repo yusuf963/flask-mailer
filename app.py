@@ -12,13 +12,13 @@ def index():
 @app.route("/registeration")
 def register():
     name = "John"
-    email = "yusufm.musa963@gmail.com"
+    email = "reciptes@gmail.com"
     # if not name or not email:
     #     return 'inter either name or email address'
     message = f"Dear {name}, You are successfully reegistered "
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    server.login("mohammad963yusuf@gmail.com", "1991mohammadyusuf")
-    server.sendmail("mohammad963yusuf@gmail.com", email, message)
-    return "welcome111"
+    server.login("your sender email here", )
+    server.sendmail("your sender email here", email, message)
+    return "welcome"
