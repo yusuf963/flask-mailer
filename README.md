@@ -1,0 +1,1 @@
+this is a flask server to send a registeration confiramtion email upon user input registeration details 
